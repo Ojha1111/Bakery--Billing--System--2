@@ -86,12 +86,6 @@ void INVENTORY::showList()
     fin.close();
 }
 
-
-
-
-
-
-
 class CUSTOMER
 {
   int itemCode,itemPrice,itemQty,totalPrice; 
@@ -157,9 +151,6 @@ void CUSTOMER::itemBill()
  float vat,tax,grandTotal;
  totalItems=0;
  
- 
- 
- 
  cout<<"\n\n\t\t<<<<<<<<<<<<<<<<<<<<ORDER BILL>>>>>>>>>>>>>>>>>>>\n\n"; 
  cout<<"  ------------------------------------------------------------------------"<<endl;       
  cout<<"  itemCode"<<"\titemName"<<"\titemPrice"<<"\titemQty"<<"\t\tTotalPrice\n";
@@ -217,9 +208,6 @@ void CUSTOMER::itemRemove()
   cout<<"\n\n\t\tEntered itemCode is not available...";
  inoutfile.close();
 }
-//-----------------------------------------------------------------------end of CUSTOMER class
-
-
 
 
 int main()
@@ -305,8 +293,8 @@ mmain:
   if(oldpass==newpass)
   {
    omain:
-        cout<<"\n\n"<<setw(50)<<"Admin Access Window\n"; 
-                    cout<<setw(54)<<"===========================\n\n";
+     cout<<"\n\n"<<setw(50)<<"Admin Access Window\n"; 
+     cout<<setw(54)<<"===========================\n\n";
      cout<<"\n\t\t1.Show item menu\n\n";
      cout<<"\t\t2.Add item in menu\n\n";
      cout<<"\t\t3.Modify item in menu\n\n";
